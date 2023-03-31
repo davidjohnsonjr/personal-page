@@ -1,0 +1,38 @@
+body {
+    background-color: #333;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100svh;
+}
+
+.headerCopy {
+    color: white;
+}
+
+.headerCopy > h1 {
+    font-size: 55px;
+}
+
+.headerCopy > h2 {
+    font-weight: 300;
+}
+
+#profileImage {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+#sigLogo {
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
