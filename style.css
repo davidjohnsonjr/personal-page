@@ -36,3 +36,21 @@ body {
     width: 50%;
     margin: auto;
 }
+
+.aboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.aboutContainer > p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
